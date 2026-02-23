@@ -1,8 +1,9 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Michael Evans
+# DATE:  02/23/2026
+# BRIEF DESCRIPTION:  the user is prompted whether they want a compliment or not.
+#                     If they choose "yes", then a compliment is given.
 
 
 
@@ -15,8 +16,11 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+compliment = str(input("Would you like a compliment? "))
 
-
+if compliment == "yes":
+    print("You have wonderful eyes.")
+print("Thank you for playing.")
 
 
 
@@ -66,12 +70,12 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+2
 
 
 
 2. What was the hardest part of this lab?
-
+The hardest part was deciding what type the variable should be.  I was thinking bool until i saw the examples.
 
 
 
